@@ -15,7 +15,7 @@ extern "C"
         return a + b;
     }
 
-    __declspec(dllexport) std::string* concatenacion(std::string* A, std::string* B, std::string* C)
+    __declspec(dllexport) std::string concatenacion(const std::string A, const std::string B, const std::string C)
     {
         return A + B + C;
     }
